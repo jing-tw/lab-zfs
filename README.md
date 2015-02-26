@@ -14,12 +14,13 @@ by Jing.
 ### Usage:
 1. [server] vagrant up && vagrant ssh
 2. [vm1] vagrant up && vagrant ssh
+	- preinstall zfs by puppet
 
 ### Resource:
 1. admin: provide dns server
-2. vm1: the lab
-   /dev/sdb: 500G
-   /dev/sdc: 500G
-   /dev/sdd: 500G
-   /dev/sde: 500G
+2. vm1: 
+   - /dev/sdb: 500G
+   - /dev/sdc: 500G
+   - /dev/sdd: 500G
+   - /dev/sde: 500G
 
